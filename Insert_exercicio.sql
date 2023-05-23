@@ -68,7 +68,7 @@ VALUES
     ('Maça', 'Arma', 130, 12),
     ('Livro', 'Consumível', 15, 2),
     ('Crossbow', 'Arma', 95, 8),
-    ('Veste', 'Armadura', 75, 6)
+    ('Veste', 'Armadura', 75, 6),
     ('Canhão', 'Arma', 150, 13);
 
 INSERT INTO Heroi_Item (heroi_id, item_id, quantidade)
@@ -117,7 +117,7 @@ VALUES
     ('Resgate a princessa real', 900, 11),
     ('Complete os desafios de vigor', 600, 9),
     ('Procure pelo tesouro lendário', 1200, 14),
-    ('Recupere a espada perdida', 800, 10)
+    ('Recupere a espada perdida', 800, 10),
     ('Derrube a ponte sagrada', 1500, 20);
 
 INSERT INTO Heroi_Missao (heroi_id, missao_id, progresso, data_finalizacao)
