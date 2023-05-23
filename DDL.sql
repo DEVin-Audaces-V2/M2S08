@@ -1,3 +1,6 @@
+USE LAB365;
+GO
+
 CREATE TABLE Jogador (
     id INT PRIMARY KEY IDENTITY(1,1),
     nome VARCHAR(50),
@@ -30,7 +33,7 @@ CREATE TABLE Heroi_Item (
     id INT PRIMARY KEY IDENTITY(1,1),
     heroi_id INT,
     item_id INT,
-    quantity INT,
+    quantidade INT,
     FOREIGN KEY (heroi_id) REFERENCES Heroi(id),
     FOREIGN KEY (item_id) REFERENCES Item(id)
 );
